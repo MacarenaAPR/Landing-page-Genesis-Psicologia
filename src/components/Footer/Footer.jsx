@@ -22,16 +22,12 @@ function Footer() {
         <div className="footer-social">
           <p className="footer-title">Síguenos</p>
           <div className="footer-social-links">
-            {/* TODO: reemplazar por link real de Facebook */}
-            <a href="#" aria-label="Facebook">
-              <FaFacebookF />
-            </a>
-            {/* TODO: reemplazar por link real de Instagram */}
-            <a href="#" aria-label="Instagram">
+   
+            <a href="https://www.instagram.com/genesis.psicoterapia?igsh=MWNic2VtNDM0a3I1Mg==" aria-label="Instagram">
               <FaInstagram />
             </a>
-            {/* TODO: reemplazar por link real de LinkedIn */}
-            <a href="#" aria-label="LinkedIn">
+
+            <a href="https://cl.linkedin.com/in/génesis-galleguillos" aria-label="LinkedIn">
               <FaLinkedinIn />
             </a>
           </div>

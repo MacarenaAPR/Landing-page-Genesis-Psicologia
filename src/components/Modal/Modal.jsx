@@ -42,7 +42,7 @@ function Modal({ isOpen, onClose, type, item }) {
                 <strong>{item.price}</strong>
               </div>
             </div>
-            <a className="modal-action" href="#">
+            <a className="modal-action" href="https://agendapro.com/site/cl/psicoterapiaonlinegenesisgalleguillos/513921">
               Agendar
             </a>
           </div>

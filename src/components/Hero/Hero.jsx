@@ -24,7 +24,7 @@ function Hero() {
           <span>Bienestar emocional  |  Intervención comunitaria  |  Psicoeducación </span>
         </div>
 
-        <a className="hero-button" href="#">
+        <a className="hero-button" href="https://agendapro.com/site/cl/psicoterapiaonlinegenesisgalleguillos/513921">
           Agendar
         </a>
         </div>

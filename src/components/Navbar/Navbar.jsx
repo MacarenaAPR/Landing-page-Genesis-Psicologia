@@ -36,16 +36,11 @@ function Navbar() {
           <a href="#contacto">Contacto</a>
 
           <div className="navbar-social-mobile">
-            {/* TODO: reemplazar por link real de Facebook */}
-            <a href="#" aria-label="Facebook">
-              <FaFacebookF />
-            </a>
-            {/* TODO: reemplazar por link real de Instagram */}
-            <a href="#" aria-label="Instagram">
+            <a href="https://www.instagram.com/genesis.psicoterapia?igsh=MWNic2VtNDM0a3I1Mg==" aria-label="Instagram">
               <IoLogoInstagram />
             </a>
-            {/* TODO: reemplazar por link real de LinkedIn */}
-            <a href="#" aria-label="LinkedIn">
+
+            <a href="https://cl.linkedin.com/in/génesis-galleguillos" aria-label="LinkedIn">
               <FaLinkedinIn />
             </a>
           </div>
@@ -53,23 +48,20 @@ function Navbar() {
 
         <div className="navbar-end">
           <div className="navbar-social">
-            {/* TODO: reemplazar por link real de Facebook */}
-            <a href="#" aria-label="Facebook">
-              <FaFacebookF />
-            </a>
-            {/* TODO: reemplazar por link real de Instagram */}
-            <a href="#" aria-label="Instagram">
+            
+
+            <a href="https://www.instagram.com/genesis.psicoterapia?igsh=MWNic2VtNDM0a3I1Mg==" aria-label="Instagram">
               <IoLogoInstagram />
             </a>
-            {/* TODO: reemplazar por link real de LinkedIn */}
-            <a href="#" aria-label="LinkedIn">
+
+            <a href="https://cl.linkedin.com/in/génesis-galleguillos" aria-label="LinkedIn">
               <FaLinkedinIn />
             </a>
           </div>
-          <a className="navbar-button" href="#">
+          <a className="navbar-button" href="https://agendapro.com/site/cl/psicoterapiaonlinegenesisgalleguillos/513921">
             <LuCalendarHeart /> Agendar
           </a>
-          {/* TODO: reemplazar por link real de AgendaPro */}
+          
         </div>
         </div>
       </nav>
