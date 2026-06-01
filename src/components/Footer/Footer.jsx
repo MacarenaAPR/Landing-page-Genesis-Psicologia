@@ -15,8 +15,8 @@ function Footer() {
 
         <div className="footer-info">
           <p className="footer-title">Contacto</p>
-          <a href="mailto:Contacto@mail.cl">Contacto@mail.cl</a>
-          <a href="tel:+569987654321">+569 9876 54321</a>
+          <a href="mailto:genesisgalleguillosv@gmail.com">genesisgalleguillosv@gmail.com</a>
+          <a href="tel:+569987654321">+569 23851079</a>
         </div>
 
         <div className="footer-social">

@@ -18,7 +18,7 @@ function Servicios({ servicios, onOpenService }) {
           <article key={servicio.id} className="service-card">
             <img
               className="service-card-image"
-              src={serviceImages[index]}
+              src={serviceImages[index % serviceImages.length]}
               alt={servicio.title}
             />
             <div>

@@ -23,14 +23,15 @@ function Modal({ isOpen, onClose, type, item }) {
   return (
     <div className="modal-overlay" onClick={onClose}>
       <div className="modal-window" onClick={(event) => event.stopPropagation()}>
-        <button className="modal-close" onClick={onClose} aria-label="Cerrar modal">
-          <AiOutlineClose />
-        </button>
-
         {type === "servicio" ? (
           <div className="modal-content modal-service">
-            <h3>{item.title}</h3>
-            <span className="modal-pill">Sesión Online</span>
+            <div className="modal-header">
+              <h3>{item.title}</h3>
+              <button className="modal-close" onClick={onClose} aria-label="Cerrar modal">
+                <AiOutlineClose />
+              </button>
+            </div>
+            <span className="modal-pill">{item.modality || "Sesión Online"}</span>
             <p>{item.description}</p>
             <div className="modal-values">
               <div>
@@ -48,9 +49,13 @@ function Modal({ isOpen, onClose, type, item }) {
           </div>
         ) : (
           <div className="modal-content modal-workshop">
-            <div className="modal-image" />
             <div className="modal-copy">
-              <h3>{item.title}</h3>
+              <div className="modal-header">
+                <h3>{item.title}</h3>
+                <button className="modal-close" onClick={onClose} aria-label="Cerrar modal">
+                  <AiOutlineClose />
+                </button>
+              </div>
               <p>{item.description}</p>
               <div className="modal-values">
                 <div>

@@ -4,6 +4,7 @@ import LogoGenesis from "../../assets/Logo-Genesis.png";
 import { FaFacebookF, FaLinkedinIn } from "react-icons/fa";
 import { IoLogoInstagram } from "react-icons/io5";
 import { LuCalendarHeart } from "react-icons/lu";
+import { IoMenuSharp } from "react-icons/io5";
 
 function Navbar() {
   const [open, setOpen] = useState(false);
@@ -17,9 +18,8 @@ function Navbar() {
           onClick={() => setOpen((value) => !value)}
           aria-label="Abrir menú"
         >
-          <span />
-          <span />
-          <span />
+          <IoMenuSharp />
+          
         </button>
 
         <div className="navbar-brand">
@@ -30,10 +30,10 @@ function Navbar() {
         </div>
 
         <div className={`navbar-links ${open ? "active" : ""}`}>
-          <a href="#inicio">Inicio</a>
-          <a href="#talleres">Talleres</a>
-          <a href="#servicios">Servicios</a>
-          <a href="#contacto">Contacto</a>
+          <a href="#inicio" onClick={() => setOpen(false)}>Inicio</a>
+          <a href="#talleres" onClick={() => setOpen(false)}>Talleres</a>
+          <a href="#servicios" onClick={() => setOpen(false)}>Servicios</a>
+          <a href="#contacto" onClick={() => setOpen(false)}>Contacto</a>
 
           <div className="navbar-social-mobile">
             <a href="https://www.instagram.com/genesis.psicoterapia?igsh=MWNic2VtNDM0a3I1Mg==" aria-label="Instagram">
