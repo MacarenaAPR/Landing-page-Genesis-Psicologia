@@ -1,0 +1,17 @@
+{
+  "name": "Génesis Psicología",
+  "short_name": "Génesis",
+  "description": "Psicoterapia online, talleres psicoeducativos, capacitaciones y acompañamiento para comunidades educativas en Chile.",
+  "start_url": "/",
+  "display": "standalone",
+  "lang": "es-CL",
+  "theme_color": "#828663",
+  "background_color": "#fef9f3",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

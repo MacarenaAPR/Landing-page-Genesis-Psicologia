@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://genesispsicologia.vercel.app/sitemap.xml
