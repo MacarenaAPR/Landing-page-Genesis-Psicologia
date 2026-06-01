@@ -1,0 +1,21 @@
+.app {
+  min-height: 100vh;
+  background: #fef9f3;
+  overflow-x: hidden;
+}
+
+main {
+  position: relative;
+}
+
+.content-blur {
+  filter: blur(8px);
+  pointer-events: none;
+  user-select: none;
+}
+
+@media (max-width: 820px) {
+  .content-blur {
+    filter: blur(6px);
+  }
+}

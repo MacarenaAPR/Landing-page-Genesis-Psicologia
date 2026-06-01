@@ -1,0 +1,130 @@
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(20, 18, 15, 0.45);
+  backdrop-filter: blur(8px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 28px;
+  z-index: 120;
+}
+
+.modal-window {
+  width: min(100%, 780px);
+  background: rgba(254, 249, 243, 0.98);
+  border-radius: 32px;
+  box-shadow: 0 32px 90px rgba(47, 34, 21, 0.18);
+  padding: 36px;
+  position: relative;
+}
+
+.modal-close {
+  position: absolute;
+  top: 22px;
+  right: 22px;
+  width: 44px;
+  height: 44px;
+  border-radius: 18px;
+  border: none;
+  background: rgba(204, 152, 123, 0.18);
+  color: #4d4a42;
+  font-size: 1.25rem;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+}
+
+.modal-content {
+  display: grid;
+  gap: 28px;
+}
+
+.modal-service h3,
+.modal-workshop h3 {
+  font-size: clamp(2rem, 4vw, 2.7rem);
+  color: #4d4a42;
+  margin: 0;
+}
+
+.modal-pill {
+  display: inline-flex;
+  padding: 10px 18px;
+  border-radius: 999px;
+  background: rgba(130, 134, 99, 0.12);
+  color: #828663;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-size: 0.82rem;
+}
+
+.modal-service p,
+.modal-workshop p {
+  color: #605c51;
+  line-height: 1.9;
+  font-size: 1rem;
+}
+
+.modal-values {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(120px, 1fr));
+  gap: 20px;
+}
+
+.modal-values span {
+  display: block;
+  color: #828663;
+  font-size: 0.88rem;
+  letter-spacing: 0.04em;
+  margin-bottom: 8px;
+}
+
+.modal-values strong {
+  color: #4d4a42;
+  display: block;
+  font-size: 1.08rem;
+}
+
+.modal-action {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  background: #d1946e;
+  color: #ffffff;
+  padding: 16px 28px;
+  border-radius: 18px;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.modal-workshop {
+  gap: 24px;
+}
+
+.modal-image {
+  min-height: 260px;
+  border-radius: 28px;
+  background: linear-gradient(180deg, #e4d6c3 0%, #f7efe5 100%);
+}
+
+.modal-copy {
+  display: grid;
+  gap: 20px;
+}
+
+@media (max-width: 760px) {
+  .modal-window {
+    padding: 24px;
+  }
+
+  .modal-values {
+    grid-template-columns: 1fr;
+  }
+
+  .modal-image {
+    min-height: 180px;
+  }
+}

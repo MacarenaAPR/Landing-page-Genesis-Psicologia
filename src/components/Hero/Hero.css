@@ -1,0 +1,133 @@
+.hero-section {
+  position: relative;
+  min-height: 82svh;
+  display: flex;
+  align-items: center;
+  padding: 130px 48px 72px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(254, 249, 243, 0.5) 0%, rgba(254, 249, 243, 0.1) 60%, rgba(255, 255, 255, 0) 100%);
+}
+
+.hero-container {
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.hero-content {
+  position: relative;
+  max-width: 620px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.hero-label {
+  display: inline-flex;
+  color: #828663;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-weight: 700;
+}
+h2{
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 500;
+    font-size: 32px;
+    color: #828663 !important;
+}
+.hero-title-group h1 {
+  font-size: clamp(3rem, 5.2vw, 5.2rem);
+  line-height: 1.02;
+  max-width: 620px;
+  color: #828663;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 600;
+}
+
+.hero-description {
+  max-width: 540px;
+  line-height: 1.2;
+}
+
+.hero-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  color: #D37941 ;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+
+}
+p{
+    color: #D37941 !important;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.02em;
+    font-weight: 600;
+    padding: 0;
+    margin: 0 !important;
+}
+
+.hero-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 220px;
+  padding: 16px 28px;
+  border-radius: 20px;
+  background: #d1946e;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 700;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.hero-button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 18px 40px rgba(93, 64, 45, 0.18);
+}
+
+@media (max-width: 900px) {
+  .hero-section {
+    padding: 110px 36px 70px;
+  }
+
+  .hero-title-group h1 {
+    font-size: clamp(2.6rem, 8vw, 4rem);
+  }
+}
+
+@media (max-width: 660px) {
+  .hero-section {
+    align-items: flex-start;
+    padding: 100px 20px 56px;
+    min-height: auto;
+  }
+
+  .hero-content {
+    width: 100%;
+    gap: 18px;
+  }
+
+  .hero-meta {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .hero-button {
+    width: 100%;
+    justify-content: center;
+  }
+}
