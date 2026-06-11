@@ -58,7 +58,7 @@ function Navbar() {
               <FaLinkedinIn />
             </a>
           </div>
-          <a className="navbar-button" href="https://agendapro.com/site/cl/psicoterapiaonlinegenesisgalleguillos/513921">
+          <a className="navbar-button" href="https://docs.google.com/forms/d/e/1FAIpQLSfFE8QdGDT8RXl67_5WxADGgzEEOysdG7c6Ci8fk0fOt7dSnA/viewform">
             <LuCalendarHeart /> Agendar
           </a>
           

@@ -6,6 +6,7 @@ import Talleres from "./components/Talleres/Talleres.jsx";
 import Servicios from "./components/Servicios/Servicios.jsx";
 import Footer from "./components/Footer/Footer.jsx";
 import Modal from "./components/Modal/Modal.jsx";
+import WhatsAppButton from "./components/WhatsAppButton/WhatsAppButton.jsx";
 
 const serviciosData = [
   {
@@ -170,6 +171,7 @@ function App() {
         type={activeModal?.type}
         item={activeModal?.item}
       />
+      <WhatsAppButton />
     </div>
   );
 }
